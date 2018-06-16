@@ -9,15 +9,19 @@ namespace JsonOutputForFolderPath
 {
     class JsonHelper
     {
+        private static readonly string newLine = Environment.NewLine;
+        private const string tab1 = "\t";
+        private const string tab2 = "\t\t";
+
         public static string FormatJson(string path, string tab = "")
         {
             DirectoryInfo mydir = new DirectoryInfo(path);
-            string json = "";
-            json += tab + "{\n";
-            json += tab + "\t\"Name\": " + "\"" + mydir.Name + "\",\n";
-            json += tab + "\t\"DataCreated\": " + "\"" + mydir.CreationTime + "\",\n";
-            json += tab + "\t\"Files\": " + "[" + GetInfoFiles(path, tab) + "],\n";
-            json += tab + "\t\"Children\": " + "[" + GetInfoChildren(path, tab + "\t\t") + "]\n";
+            string json = string.Empty;
+            json += tab + "{" + newLine;
+            json += tab + tab1 + "\"Name\": " + "\"" + mydir.Name + "\"," + newLine;
+            json += tab + tab1 + "\"DataCreated\": " + "\"" + mydir.CreationTime + "\"," + newLine;
+            json += tab + tab1 + "\"Files\": " + "[" + GetInfoFiles(path, tab) + "]," + newLine;
+            json += tab + tab1 + "\"Children\": " + "[" + GetInfoChildren(path, tab + tab2) + "]" + newLine;
             json += tab + "}";
 
             return json;
@@ -27,20 +31,20 @@ namespace JsonOutputForFolderPath
             FileInfo[] files = new DirectoryInfo(path).GetFiles();
             if (files.Length == 0)
             {
-                return " ";
+                return string.Empty;
             }
             else
             {
-                string json = "";
+                string json = string.Empty;
                 foreach (var file in files)
                 {
-                    json += "\n" + tab + "\t   {\n";
-                    json += tab + "\t\t\"Name\": " + "\"" + file.Name + "\",\n";
-                    json += tab + "\t\t\"Size\": " + "\"" + file.Length + " B\",\n";
-                    json += tab + "\t\t\"Path\": " + "\"" + file.FullName + "\"\n";
-                    json += tab + "\t   },";
+                    json += newLine + tab + tab1 +"   {" + newLine;
+                    json += tab + tab2 + "\"Name\": " + "\"" + file.Name + "\"," + newLine;
+                    json += tab + tab2 + "\"Size\": " + "\"" + file.Length + " B\"," + newLine;
+                    json += tab + tab2 + "\"Path\": " + "\"" + file.FullName + "\"" + newLine;
+                    json += tab + tab1 + "   },";
                 }
-                json += "\n\t" + tab;
+                json += newLine + tab1 + tab;
                 return json;
             }
         }
@@ -49,16 +53,16 @@ namespace JsonOutputForFolderPath
             DirectoryInfo[] subdirectories = new DirectoryInfo(path).GetDirectories();
             if (subdirectories.Length == 0)
             {
-                return " ";
+                return string.Empty;
             }
             else
             {
-                string json = "\n";
+                string json = newLine;
                 foreach (var subdir in subdirectories)
                 {
                     json += FormatJson(subdir.FullName, tab);
 
-                    json += ",\n";
+                    json += "," + newLine;
                 }
                 string lessTab = tab.Substring(0, tab.Length - 1);
                 json += lessTab;

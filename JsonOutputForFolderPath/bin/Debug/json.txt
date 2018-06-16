@@ -24,7 +24,7 @@
 				"Path": "C:\Users\bohda\Desktop\folderJson\folder1\subfile_2.txt"
 			   },
 			],
-			"Children": [ ]
+			"Children": []
 		},
 		{
 			"Name": "folder2",
@@ -76,7 +76,7 @@
 						{
 							"Name": "fold3",
 							"DataCreated": "16.06.2018 13:19:17",
-							"Files": [ ],
+							"Files": [],
 							"Children": [
 								{
 									"Name": "fold4",
@@ -88,7 +88,7 @@
 										"Path": "C:\Users\bohda\Desktop\folderJson\folder2\subbbbb\fold3\fold4\file.txt"
 									   },
 									],
-									"Children": [ ]
+									"Children": []
 								},
 							]
 						},
@@ -99,8 +99,8 @@
 		{
 			"Name": "folder3",
 			"DataCreated": "13.06.2018 16:21:38",
-			"Files": [ ],
-			"Children": [ ]
+			"Files": [],
+			"Children": []
 		},
 	]
 }
