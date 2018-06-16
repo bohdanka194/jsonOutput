@@ -1,0 +1,106 @@
+{
+	"Name": "folderJson",
+	"DataCreated": "10.06.2018 22:57:56",
+	"Files": [
+	   {
+		"Name": "file.txt",
+		"Size": "0 B",
+		"Path": "C:\Users\bohda\Desktop\folderJson\file.txt"
+	   },
+	],
+	"Children": [
+		{
+			"Name": "folder1",
+			"DataCreated": "13.06.2018 16:21:44",
+			"Files": [
+			   {
+				"Name": "subfile_1.txt",
+				"Size": "0 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder1\subfile_1.txt"
+			   },
+			   {
+				"Name": "subfile_2.txt",
+				"Size": "0 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder1\subfile_2.txt"
+			   },
+			],
+			"Children": [ ]
+		},
+		{
+			"Name": "folder2",
+			"DataCreated": "10.06.2018 22:57:56",
+			"Files": [
+			   {
+				"Name": "IMG_2601.jpg",
+				"Size": "797196 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\IMG_2601.jpg"
+			   },
+			   {
+				"Name": "IMG_2610.jpg",
+				"Size": "625599 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\IMG_2610.jpg"
+			   },
+			   {
+				"Name": "IMG_2611.jpg",
+				"Size": "595301 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\IMG_2611.jpg"
+			   },
+			   {
+				"Name": "Thumbs.db",
+				"Size": "55808 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\Thumbs.db"
+			   },
+			   {
+				"Name": "Изображение 436.jpg",
+				"Size": "916674 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\Изображение 436.jpg"
+			   },
+			   {
+				"Name": "Изображение 437.jpg",
+				"Size": "553246 B",
+				"Path": "C:\Users\bohda\Desktop\folderJson\folder2\Изображение 437.jpg"
+			   },
+			],
+			"Children": [
+				{
+					"Name": "subbbbb",
+					"DataCreated": "13.06.2018 15:48:32",
+					"Files": [
+					   {
+						"Name": "dfb.txt",
+						"Size": "6 B",
+						"Path": "C:\Users\bohda\Desktop\folderJson\folder2\subbbbb\dfb.txt"
+					   },
+					],
+					"Children": [
+						{
+							"Name": "fold3",
+							"DataCreated": "16.06.2018 13:19:17",
+							"Files": [ ],
+							"Children": [
+								{
+									"Name": "fold4",
+									"DataCreated": "16.06.2018 13:19:28",
+									"Files": [
+									   {
+										"Name": "file.txt",
+										"Size": "8 B",
+										"Path": "C:\Users\bohda\Desktop\folderJson\folder2\subbbbb\fold3\fold4\file.txt"
+									   },
+									],
+									"Children": [ ]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		{
+			"Name": "folder3",
+			"DataCreated": "13.06.2018 16:21:38",
+			"Files": [ ],
+			"Children": [ ]
+		},
+	]
+}

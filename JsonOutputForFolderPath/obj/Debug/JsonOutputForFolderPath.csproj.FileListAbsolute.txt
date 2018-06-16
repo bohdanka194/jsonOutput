@@ -1,0 +1,10 @@
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\bin\Debug\JsonOutputForFolderPath.exe.config
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\bin\Debug\JsonOutputForFolderPath.exe
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\bin\Debug\JsonOutputForFolderPath.pdb
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.csprojAssemblyReference.cache
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.Properties.Resources.resources
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.csproj.GenerateResource.cache
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.csproj.CoreCompileInputs.cache
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.exe
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.pdb
+c:\users\bohda\source\repos\JsonOutputForFolderPath\JsonOutputForFolderPath\obj\Debug\JsonOutputForFolderPath.JSONFormat.resources
